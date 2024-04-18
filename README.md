@@ -147,10 +147,10 @@ implement to enhance this app, if time permits.
 ## Acknowledgements
 
 Acknowledgements
-We express gratitude to the [OpenAI](https://openai.com/)team for providing access to their API, enabling us to incorporate advanced color analysis capabilities into our application.
+We express gratitude to the [OpenAI](https://openai.com/) team for providing access to their API, enabling us to incorporate advanced color analysis capabilities into our application.
 Additionally, we appreciate the contributions of the wider developer community whose insights and expertise continually enrich our projects.
 
-Special thanks to the creators and contributors of the [iro.js](https://iro.js.org/)library, which facilitated seamless color selection and capture within our application.
+Special thanks to the creators and contributors of the [iro.js](https://iro.js.org/) library, which facilitated seamless color selection and capture within our application.
 
 ## About Chingu
 
