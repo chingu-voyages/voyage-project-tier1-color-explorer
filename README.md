@@ -74,84 +74,92 @@ implement to enhance this app, if time permits.
 
 #### Structure
 
-- [ ] This is a purely frontend application. No backend is required. 
-- [ ] You may use any languages, tools, or libraries you prefer when designing and building this app. 
-- [ ] We've included a JSON file containing the raw data in the `/assets` directory in this repo. But, 
-if you choose, you may use the [Dinosaurs API](https://chinguapi.onrender.com/dinosaurs) instead.
+- [ ] This is a purely frontend application. No backend is required.
+- [ ] You may use any languages, tools, or libraries you prefer when designing and building this app.
 - [ ] You may **_NOT_** use AI-base solution generators like GitHub CoPilot.
+- [ ] The app should facilitate connectivity to the OpenAI API for color recognition.
 - [ ] Useful links and resources:
-    - [National History Museum](https://www.nhm.ac.uk/discover/dinosaurs.html)
-    - [Dinosaurs API](https://chinguapi.onrender.com/dinosaurs)
-    - [NewsAPI](https://newsapi.org)
+  - [Wiki about Color Scheme](https://en.wikipedia.org/wiki/Color_scheme)
+  - [OpenAI API docs](https://platform.openai.com/docs/introduction)
+  - [Color picker library](https://iro.js.org/)
+  - Video Tutorials:
+    - [How to Create Color Picker in Javascript & HTML](https://www.youtube.com/watch?v=eIw-Nou9L9E)
+    - [HTML | CSS Color Picker ](https://www.youtube.com/watch?v=m-z3xQL9rzU)
 
 #### Styling
 
 - [ ] Surprise us!!! Use your teams creativity to make this app distinctive.
-- [ ] Add a footer containing a link to your teams GitHub repo
+- [ ] Add a footer containing a link to your teams GitHub repo.
 - [ ] In general, you will find these [UI design principles](https://www.justinmind.com/ui-design/principles) helpful.
-- [ ] Recommend using this resource for [clean CSS](https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology)
+- [ ] Recommend using this resource for [clean CSS](https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology).
 
 #### Functionality
 
 -   Overview:
-    - [ ] A single page application (SPA) or it's equivalent design to provide users with an immersive experience in exploring dinosaurs through a user-friendly interface.
+    - [ ] Develop a single-page application (SPA) or its equivalent to deliver intuitive color recommendation functionality to users.
 
-- Dinosaur Display
-    - [ ] Display dinosaurs' names and corresponding images sourced from the provided JSON file.
-    - [ ] Each dinosaur entry should be clickable to view full details.
+- Color Capture and Processing
+    - [ ] Implement a color palette selector allowing users to choose colors from a predefined set.
+    - [ ] Provide a minimum of 9 color options represented as boxes on the page.
+          
+    **Note:** You have the flexibility to implement the identification of each color in a way that suits your design. Consider utilizing unique identifiers for each color box to facilitate interaction. For instance, you might use the color's HEX code or any other method you find suitable. This allows for customization while ensuring clarity in color selection.
 
-- Search Component
-    - [ ] Implement a search feature allowing users to search for dinosaurs by name.
-    - [ ] Search results should dynamically filter displayed dinosaurs based on the entered name.
+- API Connectivity and Response Handling
+    - [ ] Establish connectivity to the OpenAI API for color analysis via provided API key.
+    - [ ] Send the captured color data to the API as part of the prompt.
+    - [ ] When sending color data to the OpenAI API, include it in the prompt along with a request for color recommendations. For example, "Suggest color recommendations based on the [selected color]", ensuring it also requests color codes with their respective names for the recommended colors.
+    - [ ] Retrieve and process the response from the OpenAI API.
+    - [ ] Capture the color codes and text description provided by the OpenAI API in the response.
 
-- Diet Chart Visualization
-    - [ ] Display a chart (pie chart or doughnut chart) illustrating the distribution of general dinosaur diets (e.g., herbivore, carnivore, omnivore) based on provided JSON data.
-    - [ ] Ensure the chart is visually appealing and informative, providing a clear overview of diet composition.
+    **API Call Guide** For performing API calls, you can refer to this [example sandbox](https://codesandbox.io/p/devbox/exciting-rain-h5tnmj?file=%2Fsrc%2Findex.html%3A3%2C7). The example demonstrates how to make API calls using JavaScript fetch() method. Ensure to replace the placeholder URL with the actual endpoint of the target API you are integrating with.
 
-- Dinosaur Details View
-    - [ ] Enable users to view full details of a selected dinosaur upon clicking its entry.
-    - [ ] Details should include additional information sourced from the JSON file such as: 
-        - name
-        - imageSrc
-        - typeOfDinosaur
-        - length
-        - diet
-        - whenLived
-        - typeSpecies
-        - description
+    **API Tutorial Resources:**
+    - [Web Streams Tutorial](https://umaar.com/dev-tips/269-web-streams-openai/): This tutorial includes a blog post and a video.
+    - [Using Fetch API - MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): Detailed documentation from MDN.
+    - [Fetch API Tutorial - YouTube](https://www.youtube.com/watch?v=cuEtnrL9-H0): An explanation about Fetch API on YouTube.
+
+ - Visual Representation
+    - [ ] Visualize the response from the OpenAI API using colors and accompanying text.
+    - [ ] Represent the AI-generated color response in a visually comprehensible manner within the application interface.
+
+- User Experience
+    - [ ] Ensure the application provides a seamless user experience for color selection, processing, and response visualization.
+    - [ ] Implement intuitive UI/UX elements to guide users through the color capture and analysis process.
 
 - Responsiveness
     - [ ] Ensure the web application is responsive and accessible across various devices and screen sizes.
     - [ ] Utilize responsive design techniques to adapt to different viewport sizes.
-    
+
 ### Extras (Not Required)
 
-- Dinosaur Location Map
-    - [ ] Provide an optional feature to display the location of a selected dinosaur on a map.
-    - [ ] Upon clicking a dinosaur entry, dynamically fetch and display its geographic location on an interactive map using a mapping API (e.g., Google Maps).
+- Color Capture and Processing
+    - [ ] Create boxes of minimum 9 colors with their HEX code OR Use a color picker library to select color, eg [Iro JS](https://iro.js.org/).
+    - [ ] Utilize a library for visually representing color recommendation responses.
+
+- API Connectivity and Response Handling
+    - [ ] Ensure robust error handling for API connectivity, data formatting, and response processing.
 
 ## Acceptance Criteria
-- Search Functionality
-    - [ ] Users should be able to search for dinosaurs by name.
-    - [ ] Search results must dynamically filter displayed dinosaurs based on the entered name.
-    - [ ] Search functionality should be case-insensitive and allow partial matching of dinosaur names.
+- Color Capture and Processing
+    - [ ] Users should be able to accurately select colors using a custom color palette selector.
+    - [ ] Captured color codes must be correctly formatted and included in the prompt sent to the OpenAI API for analysis. The prompt should explicitly request color recommendations based on the selected color and ask for color codes to be included in the response from the AI.
+    - [ ] The application should effectively process the response from the OpenAI API, providing meaningful insights into the selected color.
 
-- Diet Chart Visualization
-    - [ ] The app must display a chart (pie chart or doughnut chart) illustrating the distribution of general dinosaur diets (e.g., herbivore, carnivore, omnivore) based on provided data.
-    - [ ] The chart must accurately represent the proportion of each diet type within the dataset.
-    - [ ] Users should be able to easily interpret and interact with the chart to understand diet composition.
+- API Connectivity and Response Handling
+    - [ ] The application must establish reliable connectivity to the OpenAI API for color analysis.
+    - [ ] Response handling mechanisms should accurately interpret and extract relevant information from the API response.
+    - [ ] Error handling must be implemented to gracefully manage any issues encountered during API communication.
 
-- Dinosaur Details View
-    - [ ] Upon clicking a dinosaur entry, users must be able to view full details of the selected dinosaur.
-    - [ ] Dinosaur details should include notable characteristics sourced from the JSON file.
-    - [ ] The details view should be accessible and provide comprehensive information about the selected dinosaur.
+- Visual Representation
+    - [ ] The AI-generated color response should be visually represented in a clear and understandable manner within the application interface, effectively conveying the characteristics and attributes of the analyzed color along with their corresponding text descriptions.
 
 ## Acknowledgements
 
-We acknowledge the [National History Museum](https://www.nhm.ac.uk) for providing access to the dataset containing valuable information about dinosaurs. Additionally, we thank [NewsAPI](https://newsapi.org) for delivering the latest news on dinosaur discoveries, contributing to our ongoing exploration of this fascinating field.
+We express gratitude to the [OpenAI](https://openai.com/) team for providing access to their API, enabling us to incorporate advanced color analysis capabilities into our application.
+Additionally, we appreciate the contributions of the wider developer community whose insights and expertise continually enrich our projects.
 
 ## About Chingu
 
-If you aren’t yet a member of Chingu we invite you to join us. We help our 
-members transform what they’ve learned in courses & tutorials into the 
+If you aren’t yet a member of Chingu we invite you to join us. We help our
+members transform what they’ve learned in courses & tutorials into the
 practical experience employers need and want.
