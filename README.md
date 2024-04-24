@@ -16,6 +16,14 @@ Let's consider the importance of colors in our lives. These bright shades not on
 
 During this voyage, you will be building a color matching app. The app is intended to serve as a personal consultant, helping users find harmonious color combinations for various purposes, including outfit coordination, interior design, website design, graphic design projects, and more.
 
+- Color theory example site
+
+![Color theory example site](./assets/colorwheel2.png)
+
+- Color theory example site
+
+![Color theory example site](./assets/colowheel1.png)
+
 This voyage takes an even more thrilling turn as Chingu introduces the integration of the OpenAI API for the first time. With this powerful tool at your disposal, you'll craft an innovative solution enabling users to uncover their ideal color combinations.
 
 So, grab your color wheels and dive into coding!
@@ -57,6 +65,22 @@ implement to enhance this app, if time permits.
   - Video Tutorials:
     - [How to Create Color Picker in Javascript & HTML](https://www.youtube.com/watch?v=eIw-Nou9L9E)
     - [HTML | CSS Color Picker ](https://www.youtube.com/watch?v=m-z3xQL9rzU)
+  - **API Call Guide** For performing API calls, you can refer to this [example sandbox](https://codesandbox.io/p/devbox/exciting-rain-h5tnmj?file=%2Fsrc%2Findex.html%3A3%2C7). The example demonstrates how to make API calls using JavaScript fetch() method. Ensure to replace the placeholder URL with the actual endpoint of the target API you are integrating with.
+
+  - **API Tutorial Resources:**
+    - [Web Streams Tutorial](https://umaar.com/dev-tips/269-web-streams-openai/): This tutorial includes a blog post and a video.
+    - [Using Fetch API - MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): Detailed documentation from MDN.
+    - [Fetch API Tutorial - YouTube](https://www.youtube.com/watch?v=cuEtnrL9-H0): An explanation about Fetch API on YouTube.
+ 
+  - **How to Obtain OpenAI API Key**
+    - Create an Account
+      - [ ] Visit the OpenAI API website and create an account.
+    - Navigate to API Keys
+      - [ ] Once logged in, go to the API keys section in the navigation menu.
+    - Generate a New Secret Key
+      - [ ] Click on "Create New Secret Key" to generate your API key.
+    - Note for Existing Users
+      - [ ] If you are logged in with a ChatGPT account, you won't have access to a free OpenAI API key. Free keys are available for new users and are valid for three months.
 
 #### Styling
 
@@ -83,14 +107,7 @@ implement to enhance this app, if time permits.
     - [ ] Retrieve and process the response from the OpenAI API.
     - [ ] Capture the color codes and text description provided by the OpenAI API in the response.
 
-    **API Call Guide** For performing API calls, you can refer to this [example sandbox](https://codesandbox.io/p/devbox/exciting-rain-h5tnmj?file=%2Fsrc%2Findex.html%3A3%2C7). The example demonstrates how to make API calls using JavaScript fetch() method. Ensure to replace the placeholder URL with the actual endpoint of the target API you are integrating with.
-
-    **API Tutorial Resources:**
-    - [Web Streams Tutorial](https://umaar.com/dev-tips/269-web-streams-openai/): This tutorial includes a blog post and a video.
-    - [Using Fetch API - MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): Detailed documentation from MDN.
-    - [Fetch API Tutorial - YouTube](https://www.youtube.com/watch?v=cuEtnrL9-H0): An explanation about Fetch API on YouTube.
-
- - Visual Representation
+- Visual Representation
     - [ ] Visualize the response from the OpenAI API using colors and accompanying text.
     - [ ] Represent the AI-generated color response in a visually comprehensible manner within the application interface.
 
