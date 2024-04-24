@@ -1,4 +1,4 @@
-# voyage-project-tier1-dinosaurs
+# voyage-project-tier1-color-explorer
 
 ## Table of Contents
 
@@ -10,15 +10,15 @@
 
 ## Overview
 
+Hello Chingus!
+
 Let's consider the importance of colors in our lives. These bright shades not only decorate our surroundings but also affect our feelings and thoughts every day. From the calming effect of gentle blues to the energizing power of vibrant greens, colors impact how we experience and express ourselves. However, many of us find ourselves struggling to find matching colors, whether for our outfits or interior design, often leading to frustration and uncertainty in our choices.
 
-During this Voyage, Chingu teams are going to be building color matching apps. Color matching apps are innovative tools designed to assist users in finding harmonious color combinations for various purposes, such as outfit coordination, interior design, or graphic design projects. These apps act as personal color consultants, offering a range of features and tools to simplify the process of selecting matching colors to enhance visual aesthetics and express individual style preferences.
+During this voyage, you will be building a color matching app. The app is intended to serve as a personal consultant, helping users find harmonious color combinations for various purposes, including outfit coordination, interior design, website design, graphic design projects, and more.
 
-Looking to find matching colors for your website? No problem! Color matching apps offer a variety of tools and features to help you craft harmonious color schemes that enhance your online presence. From complementary hues to contrasting tones, users have a multitude of options to create the perfect palette for their website design.
+This voyage takes an even more thrilling turn as Chingu introduces the integration of the OpenAI API for the first time. With this powerful tool at your disposal, you'll craft an innovative solution enabling users to uncover their ideal color combinations.
 
-Seeking fitting colors for your clothes? With color matching apps, you can experiment with different color combinations to curate outfits that reflect your personal style and make a statement. Whether you're dressing for a casual outing or a formal event, these apps provide endless inspiration to help you look and feel your best.
-
-Color matching apps serve as your trusted companions in navigating the colorful world around you. Whether designing your website or refreshing your wardrobe, these innovative tools simplify the process of finding the perfect colors for any occasion.
+So, grab your color wheels and dive into coding!
 
 ## General Instructions
 
