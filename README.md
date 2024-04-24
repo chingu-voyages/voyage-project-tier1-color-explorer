@@ -10,43 +10,15 @@
 
 ## Overview
 
-Hey there! How about we create an app all about dinosaurs? We've got our data all 
-set from the National History Museum that tells us about different dinosaurs.
+Let's consider the importance of colors in our lives. These bright shades not only decorate our surroundings but also affect our feelings and thoughts every day. From the calming effect of gentle blues to the energizing power of vibrant greens, colors impact how we experience and express ourselves. However, many of us find ourselves struggling to find matching colors, whether for our outfits or interior design, often leading to frustration and uncertainty in our choices.
 
-Imagine our app like a dino world! We can show all kinds of dinosaurs – big ones 
-looking for food, calm ones eating plants, and even tiny ones running around. From 
-huge dinosaurs that made the ground shake to little ones in the forests.
+During this Voyage, Chingu teams are going to be building color matching apps. Color matching apps are innovative tools designed to assist users in finding harmonious color combinations for various purposes, such as outfit coordination, interior design, or graphic design projects. These apps act as personal color consultants, offering a range of features and tools to simplify the process of selecting matching colors to enhance visual aesthetics and express individual style preferences.
 
-And get this, our tool might even let us time-travel! Imagine going back in time to 
-see how these dinosaurs lived. Plus, it tells us what type of dinosaur it is and 
-where it used to call home. So, you'll get to know dinosaurs from all over the place.
+Looking to find matching colors for your website? No problem! Color matching apps offer a variety of tools and features to help you craft harmonious color schemes that enhance your online presence. From complementary hues to contrasting tones, users have a multitude of options to create the perfect palette for their website design.
 
-We're thinking of adding a cool twist – using News data to show you the latest 
-discoveries about dinosaurs. Pretty cool, huh?
+Seeking fitting colors for your clothes? With color matching apps, you can experiment with different color combinations to curate outfits that reflect your personal style and make a statement. Whether you're dressing for a casual outing or a formal event, these apps provide endless inspiration to help you look and feel your best.
 
-Let's make an app that's not just smart but also super fun for everyone!
-
-- Dinosaur example website
-
-![Dinosaurs Example Website](./assets/dino-site-inspiration.png)
-
-- Dinosaurs example map
-
-![Dinosaurs Example Map](./assets/dino-map-site.png)
-
-- Dinosaurs example charts
-
-![Dinosaurs Example Chart](./assets/dino-charts-zig.png)
-
-![Dinosaurs Example BarChart](./assets/dino-chart-bar.png)
-
-Your Chingu Voyage team will be using this data to create an web app that will help 
-anyone interested to be able to “dig” into the fossil data and discover facts 
-about dinosaurs in a unique way. Your app will summarize this data and will allow
-users to apply a single filter to multiple visualizations simultaneously.
-
-This will provide you with an opportunity to build Web Development experience
-dealing with large volumes of dinosaurs & news data, charts, maps, and user queries.
+Color matching apps serve as your trusted companions in navigating the colorful world around you. Whether designing your website or refreshing your wardrobe, these innovative tools simplify the process of finding the perfect colors for any occasion.
 
 ## General Instructions
 
