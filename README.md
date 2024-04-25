@@ -65,22 +65,14 @@ implement to enhance this app, if time permits.
   - Video Tutorials:
     - [How to Create Color Picker in Javascript & HTML](https://www.youtube.com/watch?v=eIw-Nou9L9E)
     - [HTML | CSS Color Picker ](https://www.youtube.com/watch?v=m-z3xQL9rzU)
-  - **API Call Guide** For performing API calls, you can refer to this [example sandbox](https://codesandbox.io/p/devbox/exciting-rain-h5tnmj?file=%2Fsrc%2Findex.html%3A3%2C7). The example demonstrates how to make API calls using JavaScript fetch() method. Ensure to replace the placeholder URL with the actual endpoint of the target API you are integrating with.
+
+  - **API Call Guide** For performing API calls, you can refer to this [example sandbox](https://codesandbox.io/p/devbox/exciting-rain-h5tnmj?file=%2Fsrc%2Findex.html%3A3%2C7). The example demonstrates how to make API calls using JavaScript fetch() method.
 
   - **API Tutorial Resources:**
+
     - [Web Streams Tutorial](https://umaar.com/dev-tips/269-web-streams-openai/): This tutorial includes a blog post and a video.
     - [Using Fetch API - MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): Detailed documentation from MDN.
     - [Fetch API Tutorial - YouTube](https://www.youtube.com/watch?v=cuEtnrL9-H0): An explanation about Fetch API on YouTube.
- 
-  - **How to Obtain OpenAI API Key**
-    - Create an Account
-      - [ ] Visit the OpenAI API website and create an account.
-    - Navigate to API Keys
-      - [ ] Once logged in, go to the API keys section in the navigation menu.
-    - Generate a New Secret Key
-      - [ ] Click on "Create New Secret Key" to generate your API key.
-    - Note for Existing Users
-      - [ ] If you are logged in with a ChatGPT account, you won't have access to a free OpenAI API key. Free keys are available for new users and are valid for three months.
 
 #### Styling
 
@@ -103,7 +95,9 @@ implement to enhance this app, if time permits.
 - API Connectivity and Response Handling
     - [ ] Establish connectivity to the OpenAI API for color analysis via provided API key.
     - [ ] Send the captured color data to the API as part of the prompt.
-    - [ ] When sending color data to the OpenAI API, include it in the prompt along with a request for color recommendations. For example, "Suggest color recommendations based on the [selected color]", ensuring it also requests color codes with their respective names for the recommended colors.
+    - [ ] When sending color data to the OpenAI API, include it in the prompt along with a request for color recommendations. Ensure it also requests color codes with their respective names for the recommended colors. Example prompt:
+      - "Suggest color recommendations based on the [selected color]"
+      - "Color recs [selected color]"
     - [ ] Retrieve and process the response from the OpenAI API.
     - [ ] Capture the color codes and text description provided by the OpenAI API in the response.
 
@@ -129,6 +123,7 @@ implement to enhance this app, if time permits.
     - [ ] Ensure robust error handling for API connectivity, data formatting, and response processing.
 
 ## Acceptance Criteria
+
 - Color Capture and Processing
     - [ ] Users should be able to accurately select colors using a custom color palette selector.
     - [ ] Captured color codes must be correctly formatted and included in the prompt sent to the OpenAI API for analysis. The prompt should explicitly request color recommendations based on the selected color and ask for color codes to be included in the response from the AI.
@@ -142,9 +137,20 @@ implement to enhance this app, if time permits.
 - Visual Representation
     - [ ] The AI-generated color response should be visually represented in a clear and understandable manner within the application interface, effectively conveying the characteristics and attributes of the analyzed color along with their corresponding text descriptions.
 
+## How to Obtain OpenAI API Key
+
+  - Create an Account
+    - [ ] Visit the [OpenAI API website](https://platform.openai.com) and create an account.
+  - Navigate to API Keys
+    - [ ] Once logged in, go to the API keys section in the navigation menu.
+  - Generate a New Secret Key
+    - [ ] Click on "Create New Secret Key" to generate your API key.
+  - Note for Existing Users
+    - [ ] If you are logged in with a ChatGPT account, you won't have access to a free OpenAI API key. Free keys are available for new users and are valid for three months.
+
 ## Acknowledgements
 
-We express gratitude to the [OpenAI](https://openai.com/) team for providing access to their API, enabling us to incorporate advanced color analysis capabilities into our application.
+We express gratitude to the [OpenAI](https://openai.com) team for providing access to their API, enabling us to incorporate advanced color analysis capabilities into our application.
 Additionally, we appreciate the contributions of the wider developer community whose insights and expertise continually enrich our projects.
 
 ## About Chingu
