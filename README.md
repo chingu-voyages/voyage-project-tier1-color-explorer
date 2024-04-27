@@ -57,7 +57,7 @@ implement to enhance this app, if time permits.
 - [ ] This is a purely frontend application. No backend is required.
 - [ ] You may use any languages, tools, or libraries you prefer when designing and building this app.
 - [ ] You may **_NOT_** use AI-base solution generators like GitHub CoPilot.
-- [ ] The app should facilitate connectivity to the OpenAI API for color recognition.
+- [ ] The app should facilitate connectivity to the OpenAI API for color recommendations.
 - [ ] Useful links and resources:
   - [Wiki about Color Scheme](https://en.wikipedia.org/wiki/Color_scheme)
   - [OpenAI API docs](https://platform.openai.com/docs/introduction)
@@ -87,7 +87,7 @@ implement to enhance this app, if time permits.
     - [ ] Develop a single-page application (SPA) or its equivalent to deliver intuitive color recommendation functionality to users.
 
 - Color Capture and Processing
-    - [ ] Implement a color palette selector allowing users to choose colors from a predefined set.
+    - [ ] Implement a color palette selector allowing users to choose color from a predefined set.
     - [ ] Provide a minimum of 9 color options represented as boxes on the page.
           
     **Note:** You have the flexibility to implement the identification of each color in a way that suits your design. Consider utilizing unique identifiers for each color box to facilitate interaction. For instance, you might use the color's HEX code or any other method you find suitable. This allows for customization while ensuring clarity in color selection.
@@ -95,11 +95,11 @@ implement to enhance this app, if time permits.
 - API Connectivity and Response Handling
     - [ ] Establish connectivity to the OpenAI API for color analysis via provided API key.
     - [ ] Send the captured color data to the API as part of the prompt.
-    - [ ] When sending color data to the OpenAI API, include it in the prompt along with a request for color recommendations. Ensure it also requests color codes with their respective names for the recommended colors. Example prompt:
+    - [ ] When sending color data to the OpenAI API, include it in the prompt along with a request for color recommendations. Ensure it also requests colors code with their respective names for the recommended colors. Example prompt:
       - "Suggest color recommendations based on the [selected color]"
       - "Color recs [selected color]"
     - [ ] Retrieve and process the response from the OpenAI API.
-    - [ ] Capture the color codes and text description provided by the OpenAI API in the response.
+    - [ ] Capture the colors code and text description provided by the OpenAI API in the response.
 
 - Visual Representation
     - [ ] Visualize the response from the OpenAI API using colors and accompanying text.
@@ -126,7 +126,7 @@ implement to enhance this app, if time permits.
 
 - Color Capture and Processing
     - [ ] Users should be able to accurately select colors using a custom color palette selector.
-    - [ ] Captured color codes must be correctly formatted and included in the prompt sent to the OpenAI API for analysis. The prompt should explicitly request color recommendations based on the selected color and ask for color codes to be included in the response from the AI.
+    - [ ] Captured colors codes must be correctly formatted and included in the prompt sent to the OpenAI API for analysis. The prompt should explicitly request color recommendations based on the selected color and ask for colors code to be included in the response from the AI.
     - [ ] The application should effectively process the response from the OpenAI API, providing meaningful insights into the selected color.
 
 - API Connectivity and Response Handling
