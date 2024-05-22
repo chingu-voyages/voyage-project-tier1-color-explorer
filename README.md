@@ -24,7 +24,7 @@ During this voyage, you will be building a color matching app. The app is intend
 
 ![Color theory example site](./assets/colowheel1.png)
 
-This voyage takes an even more thrilling turn as Chingu introduces the integration of the OpenAI API for the first time. With this powerful tool at your disposal, you'll craft an innovative solution enabling users to uncover their ideal color combinations.
+This voyage takes an even more thrilling turn as Chingu introduces the integration of the OpenAI for the first time. With this powerful tool at your disposal, you'll craft an innovative solution enabling users to uncover their ideal color combinations.
 
 So, grab your color wheels and dive into coding!
 
@@ -57,10 +57,10 @@ implement to enhance this app, if time permits.
 - [ ] This is a purely frontend application. No backend is required.
 - [ ] You may use any languages, tools, or libraries you prefer when designing and building this app.
 - [ ] You may **_NOT_** use AI-base solution generators like GitHub CoPilot.
-- [ ] The app should facilitate connectivity to the OpenAI API for color recommendations.
+- [ ] The app should facilitate connectivity to the GroqAI API for color recommendations.
 - [ ] Useful links and resources:
   - [Wiki about Color Scheme](https://en.wikipedia.org/wiki/Color_scheme)
-  - [OpenAI API docs](https://platform.openai.com/docs/introduction)
+  - [GroqAI API docs](https://console.groq.com/docs/quickstart)
   - [Color picker library](https://iro.js.org/)
   - Video Tutorials:
     - [How to Create Color Picker in Javascript & HTML](https://www.youtube.com/watch?v=eIw-Nou9L9E)
@@ -93,16 +93,16 @@ implement to enhance this app, if time permits.
     **Note:** You have the flexibility to implement the identification of each color in a way that suits your design. Consider utilizing unique identifiers for each color box to facilitate interaction. For instance, you might use the color's HEX code or any other method you find suitable. This allows for customization while ensuring clarity in color selection.
 
 - API Connectivity and Response Handling
-    - [ ] Establish connectivity to the OpenAI API for color analysis via provided API key.
+    - [ ] Establish connectivity to the GroqAI API for color analysis via provided API key.
     - [ ] Send the captured color data to the API as part of the prompt.
-    - [ ] When sending color data to the OpenAI API, include it in the prompt along with a request for color recommendations. Ensure it also requests colors code with their respective names for the recommended colors. Example prompt:
+    - [ ] When sending color data to the GroqAI API, include it in the prompt along with a request for color recommendations. Ensure it also requests colors code with their respective names for the recommended colors. Example prompt:
       - "Suggest color recommendations based on the [selected color]"
       - "Color recs [selected color]"
-    - [ ] Retrieve and process the response from the OpenAI API.
-    - [ ] Capture the colors code and text description provided by the OpenAI API in the response.
+    - [ ] Retrieve and process the response from the GroqAI API.
+    - [ ] Capture the colors code and text description provided by the GroqAI API in the response.
 
 - Visual Representation
-    - [ ] Visualize the response from the OpenAI API using colors and accompanying text.
+    - [ ] Visualize the response from the GroqAI API using colors and accompanying text.
     - [ ] Represent the AI-generated color response in a visually comprehensible manner within the application interface.
 
 - User Experience
@@ -126,31 +126,29 @@ implement to enhance this app, if time permits.
 
 - Color Capture and Processing
     - [ ] Users should be able to accurately select colors using a custom color palette selector.
-    - [ ] Captured colors codes must be correctly formatted and included in the prompt sent to the OpenAI API for analysis. The prompt should explicitly request color recommendations based on the selected color and ask for colors code to be included in the response from the AI.
-    - [ ] The application should effectively process the response from the OpenAI API, providing meaningful insights into the selected color.
+    - [ ] Captured colors codes must be correctly formatted and included in the prompt sent to the GroqAI API for analysis. The prompt should explicitly request color recommendations based on the selected color and ask for colors code to be included in the response from the AI.
+    - [ ] The application should effectively process the response from the GroqAI API, providing meaningful insights into the selected color.
 
 - API Connectivity and Response Handling
-    - [ ] The application must establish reliable connectivity to the OpenAI API for color analysis.
+    - [ ] The application must establish reliable connectivity to the GroqAI API for color analysis.
     - [ ] Response handling mechanisms should accurately interpret and extract relevant information from the API response.
     - [ ] Error handling must be implemented to gracefully manage any issues encountered during API communication.
 
 - Visual Representation
     - [ ] The AI-generated color response should be visually represented in a clear and understandable manner within the application interface, effectively conveying the characteristics and attributes of the analyzed color along with their corresponding text descriptions.
 
-## How to Obtain OpenAI API Key
+## How to Obtain GroqAI API Key
 
   - Create an Account
-    - [ ] Visit the [OpenAI API website](https://platform.openai.com) and create an account.
+    - [ ] Visit the [GroqAI website](https://console.groq.com/login) and create an account.
   - Navigate to API Keys
     - [ ] Once logged in, go to the API keys section in the navigation menu.
-  - Generate a New Secret Key
-    - [ ] Click on "Create New Secret Key" to generate your API key.
-  - Note for Existing Users
-    - [ ] If you are logged in with a ChatGPT account, you won't have access to a free OpenAI API key. Free keys are available for new users and are valid for three months.
+  - Generate a New API Key
+    - [ ] Click on "Create API Key" to generate your API key.
 
 ## Acknowledgements
 
-We express gratitude to the [OpenAI](https://openai.com) team for providing access to their API, enabling us to incorporate advanced color analysis capabilities into our application.
+We express gratitude to the [GroqCloud](https://console.groq.com) team for providing access to their API, enabling us to incorporate advanced color analysis capabilities into our application.
 Additionally, we appreciate the contributions of the wider developer community whose insights and expertise continually enrich our projects.
 
 ## About Chingu
